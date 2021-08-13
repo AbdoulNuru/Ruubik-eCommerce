@@ -212,3 +212,9 @@ small{
     font-size: 34px;
     color: #ff523b; 
 }
+
+.download{
+    width: 100%;
+    color: #555;
+    text-align: center;
+}
