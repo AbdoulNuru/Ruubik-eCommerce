@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* ----- Navbar ----- */
 .navbar{
     display: flex;
     align-items: center;
@@ -90,6 +91,9 @@ p{
     margin-top: 70px;
 }
 
+/* ----- Aho Navbar Irangirira ----- */
+
+
 .categories{
     margin: 70px 0;
 } 
@@ -103,6 +107,8 @@ p{
 .col-3 img{
     width: 100%;
 }
+
+/* ----- Aho Categories Zirangirira ----- */
 
 .small-container{
     max-width: 1080px;
@@ -122,6 +128,8 @@ p{
 .col-4 img{
     width: 100%;
 }
+
+/* ----- Aho Ibicuruzwa byihariy birangirira ----- */
 
 .title{
     text-align: center;
@@ -160,6 +168,8 @@ h4{
     transform: translateY(-5px);
 }
 
+/* ----- Aho Ibicuruzwa Bigezweho birangirira ----- */
+
 .offer{
      background: radial-gradient(#fff, #ffd6d6);
      margin-top: 80px;
@@ -173,6 +183,8 @@ h4{
 small{
     color: #555;
 }
+
+/* ------ Aho ibicuruzwa bihenze birangirira ------ */
 
 .testimonials{
     padding-top: 100px;
@@ -213,8 +225,96 @@ small{
     color: #ff523b; 
 }
 
+/* ------ Aho ubuhamya burangirira ------ */
+
 /* .download{
     width: 100%;
     color: #555;
     text-align: center;
 } */
+
+.brands{
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+/* ------ Aho ibirango birangirira ------ */
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.store-logos{
+    margin-top: 20px;
+}
+
+.store-logos img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+/* ------ Aho footer irangirira ------ */
