@@ -19,7 +19,7 @@
                     <img src="img/ruubik.png" alt="" width="125px"/>
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="menuList">
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
@@ -27,6 +27,7 @@
                     <li><a href="">Account</a></li>
                     </ul>
                     <img src="img/cart.png" width="20px" height="20px">
+                    <img src="img/menu.png" width="20px" height="20px" class="menu-icon" onclick="openMenu()">
                 <nav/>
                 
             </div>
@@ -352,6 +353,20 @@
             <p class="copyright">Copyright 2021 - Ruubik Ltd</p>
         </div>
     </footer>
+
+   <!-- ------ Open-Close Menu ------ -->
+   <script>
+       var menu = document.getElementById("menuList");
+       menu.style.maxHeight = "0px";
+
+       function openMenu(){
+           if(menu.style.maxHeight == "0px"){
+            menu.style.maxHeight = "200px";
+           }else {
+               menu.style.maxHeight = "0px";
+           }
+       }
+   </script>
 
 </body>
 </html>
