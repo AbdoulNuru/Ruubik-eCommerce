@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product details | Ruubik Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"> 
+                    <img src="img/ruubik.png" alt="" width="125px"/>
+                </div>
+                <nav>
+                    <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Account</a></li>
+                    </ul>
+                    <img src="img/cart.png" width="20px" height="20px">
+                    <img src="img/menu.png" width="20px" height="20px" class="menu-icon" onclick="openMenu()">
+                <nav/>
+                
+            </div>
+        </div>
+
+    <!------ Aho umutwe urangirira ------>
+
+    <div class="small-container product-det">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/product-1.jpg" width="100%" height="500px" id="productImage">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/product-1.jpg" width="100%" class="small-image"/>
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product-2.jpg" width="100%" class="small-image"/>
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product-3.jpg" width="100%" class="small-image"/>
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product-4.jpg" width="100%" class="small-image"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Sneakers</p>
+                <h1>Air Jordan 1 Retro</h1>
+                <h4>50.0$</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                </select>
+                <input type="number" value="1"/>
+                <a href="" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+    </div>
+
+    <!------ Aho details za product zirangirira ------>
+
+    <div class="small-container">
+        <div class="row row-2">
+             <h2>Related Products</h2>
+             <p>View More</p>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-1.jpg">
+                <h4>Red Printed T-Shrit</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-2.jpg">
+                <h4>Running Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                </div>
+                <p>$92.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg">
+                <h4>Denim Trouser</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$16.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-4.jpg">
+                <h4>Puma T-Shrit</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                </div>
+                <p>$104.00</p>
+            </div>
+         
+        </div>
+
+        </div>
+
+    <!------ Aho ibicuruzwa bigezweho birangirira ------>
+
+    <footer class="footer">
+        <div class = "container">
+            <div class = "row">
+                <div class = "footer-col-1">
+                    <h3>Download The App</h3>
+                    <p>Download Our App on Android or Ios phones</p>
+                    <div class = "store-logos">
+                        <img src = "img/app-store.png" alt="App Store"/>
+                        <img src = "img/play-store.png" alt="Play Store"/>
+                    </div>
+                </div>
+                <div class = "footer-col-2">
+                  <img src ="img/ruubik.png" alt=""/>
+                    <p>Shopping best quality products at the comfort of your home</p>
+                </div>
+                <div class = "footer-col-3">
+                   <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Return Policy</li>
+                       <li>Terms and Conditions</li>
+                   </ul>
+                </div>
+                <div class = "footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>LinkedIn</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Ruubik Ltd</p>
+        </div>
+    </footer>
+
+   <!-- ------ Open-Close Menu ------ -->
+   <script>
+       var menu = document.getElementById("menuList");
+       menu.style.maxHeight = "0px";
+
+       function openMenu(){
+           if(menu.style.maxHeight == "0px"){
+            menu.style.maxHeight = "200px";
+           }else {
+               menu.style.maxHeight = "0px";
+           }
+       }
+   </script>
+
+    <!-- ------ Switch Images ------ -->
+    <script>
+        var productImg = document.getElementById("productImage");
+        var smallImg = document.getElementsByClassName("small-image");
+
+        smallImg[0].onclick = function(){
+            productImg.src = smallImg[0].src;
+        }
+
+        smallImg[1].onclick = function(){
+            productImg.src = smallImg[1].src;
+        }
+
+        smallImg[2].onclick = function(){
+            productImage.src = smallImg[2].src;
+        }
+
+        smallImg[3].onclick = function(){
+            productImg.src = smallImg[3].src;
+        }
+    </script>
+
+</body>
+</html>
